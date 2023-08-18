@@ -1,0 +1,32 @@
+
+#spring:
+#
+#  datasource:
+#
+#    generate-unique-name: false
+#
+#    username: users
+#
+#    url: jdbc:h2:./devdb
+#
+#
+#
+#  jpa:
+#
+#    hibernate:
+#
+#      ddl-auto: update
+
+spring:
+
+  jpa:
+
+    properties:
+
+      jakarta:
+
+        persistence:
+
+          validation:
+
+            mode: none
